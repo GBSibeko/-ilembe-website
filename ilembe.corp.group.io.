@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="iLembe Corporates Group (Pty) Ltd - Property Management and Development Company in Gauteng.">
+  <title>iLembe Corporates Group</title>
+
+  <!-- Google Fonts for a Modern Look -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary-color: #ffb400; /* Yellow/Gold */
+      --secondary-color: #333333; /* Dark Grey */
+      --accent-color: #f4f4f4; /* Light Grey Background */
+      --blue-dark: #003366; /* Optional accent */
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      color: var(--secondary-color);
+      background: white;
+      line-height: 1.6;
+    }
+
+    /* HEADER / HERO */
+    header {
+      background: linear-gradient(to bottom, var(--secondary-color), #000);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+      position: relative;
+    }
+
+    header img {
+      max-width: 180px;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: var(--primary-color);
+    }
+
+    /* NAVIGATION */
+    nav {
+      background: var(--secondary-color);
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+      transition: 0.3s;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      background: var(--primary-color);
+      color: black;
+    }
+
+    /* SECTION LAYOUT */
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: var(--secondary-color);
+      font-size: 2rem;
+      font-weight: 600;
+    }
+
+    /* BUSINESS MODEL */
+    ul {
+      max-width: 800px;
+      margin: auto;
+      list-style: none;
+    }
+
+    ul li {
+      background: var(--accent-color);
+      margin: 15px 0;
+      padding: 15px;
+      border-left: 6px solid var(--primary-color);
+      border-radius: 5px;
+    }
+
+    /* PORTFOLIO */
+    .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      color: var(--primary-color);
+      margin-bottom: 10px;
+    }
+
+    /* CONTACT */
+    .contact-info {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    form {
+      max-width: 500px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    form input, form textarea {
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    form button {
+      padding: 12px;
+      background: var(--primary-color);
+      color: black;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    form button:hover {
+      background: black;
+      color: white;
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--secondary-color);
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER / HERO -->
+  <header>
+    <img src="1000043135.jpg" alt="iLembe Corporates Group Logo">
+    <h1>iLembe Corporates Group (Pty) Ltd</h1>
+    <p>Building Communities, Growing Value</p>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#model">Our Business Model</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#leadership">Leadership</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p style="text-align:center; max-width:900px; margin:auto;">
+      iLembe Corporates Group (Pty) Ltd is a property holding and development company 
+      with a strategic focus on township markets in <b>Tsakane, Soweto, Tembisa, and Daveyton</b>, 
+      expanding into the <b>Brakpan North suburbs</b>.
+      <br><br>
+      Our simple, flat business model is geared towards <b>long-term asset growth</b> 
+      while also leveraging <b>short-term revenue opportunities</b>.
+      Our 5-year strategic plan focuses on <b>growing net asset value (NAV)</b>, 
+      <b>increasing cash flows</b>, and <b>maximizing strategic investment opportunities</b>.
+    </p>
+  </section>
+
+  <!-- BUSINESS MODEL -->
+  <section id="model">
+    <h2>Our Business Model</h2>
+    <ul>
+      <li>Long-term Investing: Building a robust property portfolio in high-growth areas.</li>
+      <li>Short-term Revenue Generation: Unlocking immediate value in our investments.</li>
+      <li>Operating Business Units: Leveraging value chains in property and related sectors.</li>
+      <li>Strategic Growth: Expanding our footprint in line with our 5-year plan.</li>
+    </ul>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio">
+    <h2>Our Portfolio</h2>
+    <div class="portfolio">
+      <div class="card">
+        <h3>Township Developments</h3>
+        <p>Tsakane, Soweto, Tembisa, Daveyton</p>
+      </div>
+      <div class="card">
+        <h3>Suburban Expansion</h3>
+        <p>Brakpan North</p>
+      </div>
+      <div class="card">
+        <h3>Future Developments</h3>
+        <p>New projects in planning stages</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEADERSHIP -->
+  <section id="leadership">
+    <h2>Leadership</h2>
+    <p style="text-align:center; max-width:800px; margin:auto;">
+      <b>Founder & CEO: Gugu Bongani Sibeko</b><br><br>
+      Gugu Bongani Sibeko is a visionary entrepreneur passionate about property 
+      development and sustainable investment growth. 
+      With a background in hospitality, administration, and strategic management, 
+      Gugu drives iLembe Corporates Group’s mission to transform township economies 
+      and create lasting value.
+    </p>
+    <p style="text-align:center; margin-top:15px;"><b>Contact:</b> 068 245 5928</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <p>Phone: 068 245 5928</p>
+      <p>Email: info@ilembeholdings.co.za</p>
+    </div>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 iLembe Corporates Group (Pty) Ltd. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
